@@ -1,6 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 import Logo from '../images/vabuchiW.png'
-import {links} from '../data'
+import { links } from '../data'
+import { FaBarsStaggered } from "react-icons/fa6";
 import './navbar.css'
 
 
@@ -22,7 +23,9 @@ const Navbar = () => {
             })
           }
         </ul>
-
+        <button className='nav-toggle-btn'>
+        <FaBarsStaggered />
+          </button>
       </div>
 
     </nav>

@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+:root {
+  --color-main: #fff0f5;
+  --color-second: #ffc436;
+  --color-accent: #fd8d14;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: var(--color-main);
+}
+.container {
+  max-width: 1424px;
+  padding: 0 8px;
+}
+a {
+  color: #fff;
+}
