@@ -27,4 +27,25 @@ nav {
 .nav-links {
   display: flex;
   gap: 2.5rem;
+  align-items: center;
+}
+.nav-links a {
+  transition: 0.5s;
+}
+.nav-links a:hover {
+  color: blueviolet;
+}
+.active-nav {
+  position: relative;
+}
+.active-nav::after {
+  content: "";
+  display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: var(--color-second);
+  position: absolute;
+  left: calc(50% - 0.6rem);
+  transform: rotate(45deg);
+  margin-top: 1rem;
 }
