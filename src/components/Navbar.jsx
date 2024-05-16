@@ -14,20 +14,21 @@ const Navbar = () => {
     <nav>
       <div className="container nav-container">
         <Link to='/' className='logo'>
-          <img src={Logo} alt="" />
+          <img src={Logo} onClick={()=> setIsNavShow(false)} />
         </Link>
         <ul className= {`nav-links ${isNavShow ? 'show-nav' : 'hide-nav'}`}>
           {
             links.map(({ name, path }, index) => {
               return (
                 <li key={index}>
-                  <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : null}>{ name}</NavLink>
+                  <NavLink to={path} className={({ isActive }) => isActive ? 'active-nav' : null}
+                  onClick={() => setIsNavShow(prev => !prev )}>{name}</NavLink>
                 </li>
               )
             })
           }
         </ul>
-        <button className='nav-toggle-btn' onClick={() => setIsNavShow(!isNavShow)}>
+        <button className='nav-toggle-btn' onClick={() => setIsNavShow(prev => !prev )}>
           {isNavShow ? <MdOutlineClose/> : <FaBarsStaggered/>}
           </button>
       </div>
