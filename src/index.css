@@ -11,6 +11,8 @@
   --color-main: #fff0f5;
   --color-second: #ffc436;
   --color-accent: #fd8d14;
+  --color-text-1: #fff;
+  --color-text-2: #000;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -21,5 +23,5 @@ body {
   padding: 0 8px;
 }
 a {
-  color: #fff;
+  color: var(--color-text-1);
 }

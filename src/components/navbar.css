@@ -49,3 +49,43 @@ nav {
   transform: rotate(45deg);
   margin-top: 1rem;
 }
+/* media  */
+
+@media screen and (max-width: 1024px) {
+  .nav-toggle-btn {
+    display: inline-block;
+    background: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--color-text-1);
+  }
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+  }
+  .nav-links li {
+    height: 3rem;
+    width: 100%;
+    box-shadow: -2rem 2rem 5rem #00000085;
+  }
+  .nav-links li a {
+    background-color: var(--color-second);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem;
+  }
+  .active-nav::after {
+    display: none;
+  }
+  .show-nav {
+    display: block;
+  }
+  .hide-nav {
+    display: none;
+  }
+}
