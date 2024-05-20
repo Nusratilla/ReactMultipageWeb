@@ -13,6 +13,8 @@
   --color-accent: #fd8d14;
   --color-text-1: #fff;
   --color-text-2: #000;
+  --color-text-hover: #0011ff;
+  --transition: 0.5s;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -20,8 +22,20 @@ body {
 }
 .container {
   max-width: 1424px;
-  padding: 0 8px;
+  padding: 0 3rem;
 }
 a {
   color: var(--color-text-1);
+}
+.btn {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.8rem 2rem;
+  background-color: var(--color-second);
+  border-radius: 1.5rem;
+  transition: var(--transition);
+}
+.btn:hover {
+  color: var(--color-text-hover);
+  background-color: var(--color-accent);
 }

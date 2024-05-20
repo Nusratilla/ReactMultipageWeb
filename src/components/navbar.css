@@ -30,10 +30,10 @@ nav {
   align-items: center;
 }
 .nav-links a {
-  transition: 0.5s;
+  transition: var(--transition);
 }
 .nav-links a:hover {
-  color: blueviolet;
+  color: var(--color-text-hover);
 }
 .active-nav {
   position: relative;
