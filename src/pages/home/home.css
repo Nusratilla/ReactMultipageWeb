@@ -24,3 +24,19 @@
   margin: 1rem 0 3rem;
   font-size: 1.1rem;
 }
+.main-heare-right {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.main-header-crcle {
+  width: 25rem;
+  height: 25rem;
+  background: var(--color-second);
+  /* border-radius: 50%; */
+  position: absolute;
+  filter: blur(0.1rem);
+}
+.main-header-image {
+  position: relative;
+}

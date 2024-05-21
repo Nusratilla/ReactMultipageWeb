@@ -9,8 +9,8 @@
 }
 :root {
   --color-main: #fff0f5;
-  --color-second: #ffc436;
-  --color-accent: #fd8d14;
+  --color-second: #e9b336;
+  --color-accent: #e27908;
   --color-text-1: #fff;
   --color-text-2: #000;
   --color-text-hover: #0011ff;
@@ -30,12 +30,20 @@ a {
 .btn {
   width: fit-content;
   margin: 0 auto;
-  padding: 0.8rem 2rem;
   background-color: var(--color-second);
-  border-radius: 1.5rem;
   transition: var(--transition);
 }
 .btn:hover {
   color: var(--color-text-hover);
   background-color: var(--color-accent);
+}
+.btn.lg {
+  padding: 0.8rem 2.5rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+}
+.btn.sm {
+  padding: 0.6rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
 }

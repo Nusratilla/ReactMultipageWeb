@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Logo from '../images/vabuchG.png'
-import Image1 from "../images/vfg.png"
+import Image1 from "../images/vfw.png"
 import '../pages/home/home.css'
 const MainHeader = () => {
   return (
