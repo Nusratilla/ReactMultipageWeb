@@ -1,5 +1,5 @@
 .main-header {
-  height: 100vh;
+  height: calc(100vh - 5rem);
   width: 100%;
   display: grid;
   place-items: center;
@@ -33,9 +33,9 @@
   width: 25rem;
   height: 25rem;
   background: var(--color-second);
-  /* border-radius: 50%; */
+  border-radius: 50% 3%;
   position: absolute;
-  filter: blur(0.1rem);
+  filter: blur(0.05rem);
 }
 .main-header-image {
   position: relative;

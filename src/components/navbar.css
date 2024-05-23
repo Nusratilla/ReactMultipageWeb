@@ -65,6 +65,7 @@ nav {
     right: 0;
     flex-direction: column;
     gap: 0;
+    z-index: 999;
   }
   .nav-links li {
     height: 3rem;
