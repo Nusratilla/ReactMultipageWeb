@@ -28,6 +28,7 @@ a {
   color: var(--color-text-1);
 }
 .btn {
+  align-items: center;
   width: fit-content;
   margin: 0 auto;
   background-color: var(--color-second);
@@ -46,4 +47,21 @@ a {
   padding: 0.6rem 1.5rem;
   border-radius: 2rem;
   font-size: 0.9rem;
+}
+
+section {
+  margin-top: 10rem;
+}
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.section-head span {
+  padding: 0.8rem;
+  font-size: 1.4rem;
+  color: var(--color-second);
+  /* background-color: var(--color-text-1);
+  border-radius: 1rem; */
 }
