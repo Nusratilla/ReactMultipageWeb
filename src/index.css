@@ -10,6 +10,8 @@
 :root {
   --color-main: #fff0f5;
   --color-second: #e9b336;
+  --color-second-1: #ffdd8d;
+  --color-second-2: #ffecc0;
   --color-accent: #e27908;
   --color-text-1: #fff;
   --color-text-2: #000;
@@ -57,11 +59,27 @@ section {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  padding-bottom: 3rem;
 }
 .section-head span {
   padding: 0.8rem;
   font-size: 1.4rem;
-  color: var(--color-second);
-  /* background-color: var(--color-text-1);
-  border-radius: 1rem; */
+  color: var(--color-accent);
+  background-color: var(--color-second-1);
+  border-radius: 1rem;
+}
+.card {
+  background: var(--color-second-1);
+  border: 2px solid transparent;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 0 3rem 0 3rem;
+  transition: var(--transition);
+}
+.card span {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  color: var(--color-accent);
+  background: var(--color-second-2);
 }
