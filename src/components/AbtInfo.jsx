@@ -13,20 +13,21 @@ const AbtInfo = () => {
         
           <SectionHead icon={<IoDiamondOutline />} title='Main Information'/>
         
-      </div>
-      <div className="abt-info-wrapper">
-        {
-          abtInfo.map(({ id, icon, title, info, path }) => {
-            return (
+      
+        <div className="abt-info-wrapper">
+          {
+            abtInfo.map(({ id, icon, title, info, path }) => {
+              return (
                <Card className="abt-info-card" key={id}>
                  <span>{icon}</span>
                  <h4>{title}</h4>
                  <small>{info}</small>
                  <Link to={path} className="btn sm">Ko'proq <FaAngleRight /></Link>
                </Card>
-             )            
-          })
-        }
+              )            
+            })
+          }
+        </div>
       </div>
     </section>
   )

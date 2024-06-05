@@ -33,10 +33,67 @@
   width: 25rem;
   height: 25rem;
   background: var(--color-second);
-  border-radius: 50% 3%;
+  border-radius: 0 5rem;
   position: absolute;
   filter: blur(0.05rem);
 }
 .main-header-image {
   position: relative;
+}
+
+/* ================AbtInfo================= */
+
+.abt-info {
+  /* display: grid;
+  place-items: center; */
+  margin-top: 4rem;
+}
+.abt-info-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.abt-info-card a {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+/* ================About================= */
+
+.about-container {
+  display: grid;
+  grid-template-columns: 38% 50%;
+  gap: 12%;
+}
+
+/* .about-image {
+  display: grid;
+  place-items: center;
+  transform: translateY(-5%);
+  transition: var(--transition);
+}
+.about-image:hover {
+  transform: translateY(1%);
+}
+.about-image img {
+  object-fit: fill;
+} */
+
+.about-right > p {
+  margin: 1.5rem 0 5rem;
+}
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem 2rem;
+}
+.card.about-about {
+  position: relative;
+  padding-top: 2.2rem;
+  text-align: left;
+}
+.card.about-about span {
+  position: absolute;
+  top: -1.5rem;
 }
