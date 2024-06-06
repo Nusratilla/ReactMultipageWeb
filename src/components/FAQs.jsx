@@ -11,7 +11,8 @@ const FAQs = () => {
         <div className="faqs-wrapper">
           {
             faqs.map(({ id, question, answer }) => {
-              return <FAQ key={id} question={question} answer={answer}/>
+              return <FAQ key={id} question={question} answer={answer} />
+             
               
             })
           }

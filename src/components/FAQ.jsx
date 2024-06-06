@@ -1,7 +1,7 @@
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 
-const FAQ = (question, answer) => {
+const FAQ = ({question, answer}) => {
   return (
     <article className="faq">
       <div>
@@ -10,6 +10,9 @@ const FAQ = (question, answer) => {
           <FaPlus />
         </button>
       </div>
+      <p>
+        {answer}
+      </p>
     </article>
   )
 }
