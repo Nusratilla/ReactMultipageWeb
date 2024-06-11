@@ -1,5 +1,5 @@
 .main-header {
-  height: calc(100vh - 5rem);
+  height: calc(100vh + 5rem);
   width: 100%;
   display: grid;
   place-items: center;
@@ -96,4 +96,34 @@
 .card.about-about span {
   position: absolute;
   top: -1.5rem;
+}
+
+/* ================FAQ================= */
+
+.faqs-wrapper {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 5rem;
+  align-items: flex-start;
+}
+.faq {
+  background: var(--color-second-1);
+  padding: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.faq div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq p {
+  margin-top: 1.5rem;
+}
+.faq-icon {
+  background: transparent;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
 }

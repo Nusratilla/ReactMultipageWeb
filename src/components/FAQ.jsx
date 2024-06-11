@@ -1,18 +1,20 @@
+import { useState } from "react";
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 
-const FAQ = ({question, answer}) => {
+const FAQ = ({ question, answer }) => {
+  const [isAnswerShowing, setIsAnswerShowing] = useState(false)
   return (
-    <article className="faq">
+    <article className="faq" onClick={()=> setIsAnswerShowing(prev => !prev)}>
       <div>
         <h4>{question}</h4>
         <button className="faq-icon">
-          <FaPlus />
+          {
+            isAnswerShowing ? <FaMinus /> : <FaPlus /> 
+          }
         </button>
       </div>
-      <p>
-        {answer}
-      </p>
+      { isAnswerShowing && <p>{answer}</p>}
     </article>
   )
 }

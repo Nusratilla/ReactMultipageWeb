@@ -8,9 +8,9 @@
   box-sizing: border-box;
 }
 :root {
-  --color-main: #fff0f5;
+  --color-main: #cfbe87;
   --color-second: #e9b336;
-  --color-second-1: #ffdd8d;
+  --color-second-1: #f3d182;
   --color-second-2: #ffecc0;
   --color-accent: #e27908;
   --color-text-1: #fff;
@@ -21,10 +21,12 @@
 body {
   font-family: "Open Sans", sans-serif;
   background: var(--color-main);
+  color: var(--color-text-1);
 }
 .container {
   max-width: 1424px;
   padding: 0 3rem;
+  margin: auto;
 }
 a {
   color: var(--color-text-1);
@@ -53,9 +55,6 @@ a {
 
 section {
   margin-top: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .section-head {
   display: flex;
@@ -86,7 +85,7 @@ section {
   width: 3rem;
   height: 3rem;
   font-size: 1.5rem;
-  color: var(--color-main);
+  color: #fff;
   background: var(--color-second);
   padding: 0.6rem;
   border-radius: 1.1rem;
