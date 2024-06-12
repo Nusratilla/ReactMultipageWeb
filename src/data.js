@@ -126,3 +126,54 @@ export const faqs = [
       "This is a big day for new project This is a big day for new project",
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Nick Doe",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a corrupti ullam rerum voluptates molestias odit, pariatur, velit dolor perferendis eveniet eum saepe, necessitatibus optio?",
+    job: "Student",
+    avatar: require("./images/GoldHero.png"),
+  },
+  {
+    id: 2,
+    name: "John Doe",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a corrupti ullam rerum voluptates molestias odit, pariatur, velit dolor perferendis eveniet eum saepe, necessitatibus optio?",
+    job: "Student",
+    avatar: require("./images/GoldHero.png"),
+  },
+  {
+    id: 3,
+    name: "Nick Nickson",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a corrupti ullam rerum voluptates molestias odit, pariatur, velit dolor perferendis eveniet eum saepe, necessitatibus optio?",
+    job: "Student",
+    avatar: require("./images/GoldHero.png"),
+  },
+  {
+    id: 4,
+    name: "James Kim",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a corrupti ullam rerum voluptates molestias odit, pariatur, velit dolor perferendis eveniet eum saepe, necessitatibus optio?",
+    job: "Student",
+    avatar: require("./images/vfw.png"),
+  },
+  {
+    id: 5,
+    name: "Elizabeth Bon",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a corrupti ullam rerum voluptates molestias odit, pariatur, velit dolor perferendis eveniet eum saepe, necessitatibus optio?",
+    job: "Student",
+    avatar: require("./images/vfw.png"),
+  },
+  {
+    id: 6,
+    name: "Amir Khan",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a corrupti ullam rerum voluptates molestias odit, pariatur, velit dolor perferendis eveniet eum saepe, necessitatibus optio?",
+    job: "Student",
+    avatar: require("./images/vfw.png"),
+  },
+];

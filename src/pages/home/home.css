@@ -72,12 +72,14 @@
   place-items: center;
   transform: translateY(-5%);
   transition: var(--transition);
-}
-.about-image:hover {
+} */
+/* .about-image:hover {
   transform: translateY(1%);
-}
-.about-image img {
-  object-fit: fill;
+} */
+/* .about-image img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 } */
 
 .about-right > p {
@@ -126,4 +128,28 @@
   font-size: 1.2rem;
   color: #fff;
   cursor: pointer;
+}
+
+/* ================Testimonials================= */
+
+.testimonials {
+  width: 50rem;
+  margin-inline: auto;
+}
+.testimonials-head {
+  justify-content: center;
+}
+.card.testimonial {
+  position: relative;
+  text-align: left;
+}
+.testmonial-avatar img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  position: absolute;
+  top: -2rem;
+  left: calc(50% - 2rem);
+  box-shadow: 0 0.5rem 2rem #0000008e;
 }

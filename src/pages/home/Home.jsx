@@ -4,6 +4,7 @@ import About from '../../components/About'
 import AbtInfo from '../../components/AbtInfo'
 import FAQs from '../../components/FAQs'
 import MainHeader from '../../components/MainHeader'
+import Testimonials from '../../components/Testimonials'
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
       <AbtInfo />
       <About />
       <FAQs />
+      <Testimonials />
       1<br/>
       2<br/>
       3<br/>
