@@ -50,7 +50,7 @@ const Footer = () => {
           <Link to='/nusratilla.88@gmail.com'>nusratilla.88@gmail.com</Link>
         </article>
       </div>
-      <div className="footer-copyright container">
+      <div className="footer-copyright">
         <small>2024 Vabuchi &copy; All Rights Reserved</small>
       </div>
     </footer>

@@ -224,12 +224,15 @@ footer {
   font-size: 1.5rem;
 }
 .footer-socials a:hover {
-  border-color: var(--color-accent);
-  background: transparent;
+  border-color: #fff;
+  background: var(--color-accent);
+}
+.footer-socials a:hover svg {
+  color: #fff;
 }
 .footer-copyright {
   text-align: center;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
+  margin-top: 3rem;
   border-top: 1px solid #d8d8d8;
-  margin-top: 5rem;
 }
